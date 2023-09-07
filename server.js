@@ -19,6 +19,7 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use(cors());
 
+
 //routes
 //user routes
 app.use("/api/v1/users", require("./routes/userRoute"));
